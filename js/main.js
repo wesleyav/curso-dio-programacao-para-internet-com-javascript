@@ -60,5 +60,41 @@
 // alert(d.getHours());
 // alert(d.getMinutes());
 
+// function soma(n1, n2){
+//     return n1 + n2;
+// }
+
+// alert(soma(5,10));
 
 
+
+// function validaIdade(idade){
+//     var validar;
+//     if (idade >= 18){
+//         validar = true
+//     }else{
+//         validar = false
+//     }
+//     return validar;
+// }
+// var idade = prompt("Qual sua idade? : ");
+// console.log(validaIdade(idade));
+
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    // alert("Obrigado por clicar!");
+}
+
+function redirecionar(){
+    window.open("https://google.com.br");
+    //window.location.href = "https://google.com.br"; // abre na mesma aba
+}
+
+function trocar(){
+    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    //alert("Trocar texto");
+}
+
+function voltar(){
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui.";
+}
